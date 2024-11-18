@@ -11,4 +11,4 @@ END;
 GO
 
 --Gọi Hàm
---SELECCT * FROM tên hàm(tham số nếu có); 
+--SELECCT dbo.tên hàm(tham số nếu có); 
