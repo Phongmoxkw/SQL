@@ -1,8 +1,8 @@
-﻿-- Cấp quyền truy cập Database
+﻿-- Cấp quyền truy cập Database cho user --
 ALTER ROLE db_datareader ADD MEMBER PhongUser; -- Chỉ đọc dữ liệu
 ALTER ROLE db_datawriter ADD MEMBER PhongUser; -- Chỉ ghi dữ liệu
 
--- Cấp quyền trong bảng --
+-- Cấp quyền trong bảng cho user -- 
 -- Cấp quyền SELECT (xem dữ liệu)
 GRANT SELECT ON dbo.Foods TO PhongUser;
 
