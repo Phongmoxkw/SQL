@@ -13,3 +13,6 @@ BEGIN
     PRINT 'Total Amount: ' + CAST(@TotalAmount AS VARCHAR(50));
 END;
 GO
+
+--Gọi Procedure
+--EXEC ProcedureName [Parameter1, Parameter2, ...];
