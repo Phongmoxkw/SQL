@@ -1,0 +1,2 @@
+SELECT HoTen, NgaySinh, GioiTinh, DiaChi, SoDienThoai
+FROM NhanVien

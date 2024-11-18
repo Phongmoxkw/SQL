@@ -1,0 +1,25 @@
+﻿--CREATE PROCEDURE dbo.CalculateInvoice
+--(
+--    @Quantity FLOAT,
+--    @UnitPrice FLOAT,
+--    @TotalAmount FLOAT OUTPUT
+--)
+--AS
+--BEGIN
+--    -- Gọi function và gán kết quả vào biến OUTPUT
+--    SET @TotalAmount = dbo.CalculateTotalAmount(@Quantity, @UnitPrice);
+
+--    -- In ra tổng tiền
+--    PRINT 'Total Amount: ' + CAST(@TotalAmount AS VARCHAR(50));
+--END;
+--GO
+
+-- Gọi stored procedure và nhận kết quả vào biến @TotalAmount
+DECLARE @TotalAmount FLOAT;
+
+EXEC dbo.CalculateInvoice @Quantity = 10, @UnitPrice = 100, @TotalAmount = @TotalAmount OUTPUT;
+
+-- Xem kết quả
+SELECT @TotalAmount AS TotalAmount;
+
+

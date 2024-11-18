@@ -1,0 +1,17 @@
+﻿-- Cấp quyền truy cập Database
+ALTER ROLE db_datareader ADD MEMBER PhongUser; -- Chỉ đọc dữ liệu
+ALTER ROLE db_datawriter ADD MEMBER PhongUser; -- Chỉ ghi dữ liệu
+
+-- Cấp quyền trong bảng --
+-- Cấp quyền SELECT (xem dữ liệu)
+GRANT SELECT ON dbo.Foods TO PhongUser;
+
+-- Cấp quyền INSERT (thêm dữ liệu)
+GRANT INSERT ON dbo.Foods TO PhongUser;
+
+-- Cấp quyền UPDATE (sửa dữ liệu)
+GRANT UPDATE ON dbo.Foods TO PhongUser;
+
+-- Cấp quyền DELETE (xóa dữ liệu)
+GRANT DELETE ON dbo.Foods TO PhongUser;
+

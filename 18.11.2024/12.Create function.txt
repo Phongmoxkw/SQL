@@ -1,0 +1,11 @@
+﻿CREATE FUNCTION CalculateTotalAmount
+(
+    @Quantity FLOAT,
+    @UnitPrice FLOAT
+)
+RETURNS FLOAT
+AS
+BEGIN
+    RETURN @Quantity * @UnitPrice;  -- Tính tổng tiền
+END;
+GO

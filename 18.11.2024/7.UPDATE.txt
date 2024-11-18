@@ -1,0 +1,14 @@
+﻿UPDATE NhanVien
+SET 
+    HoTen = 'Nguyen Thi A Updated',          -- Cập nhật tên nhân viên
+    NgaySinh = '1985-02-14',                 -- Giữ nguyên ngày sinh (hoặc thay đổi nếu cần)
+    GioiTinh = 'Nữ',                         -- Giới tính (giữ nguyên hoặc thay đổi)
+    DiaChi = '123 Đường ABC, Quận 1, TP.HCM',-- Địa chỉ mới (nếu có)
+    SoDienThoai = '0901234567',              -- Số điện thoại mới (nếu có)
+    Email = 'nguyenthia_updated@example.com',-- Địa chỉ email mới
+    ChucVu = 'Nhân viên bán hàng',           -- Cập nhật chức vụ (nếu cần)
+    NgayBatDauLamViec = '2020-07-01',        -- Giữ nguyên ngày bắt đầu làm việc (hoặc thay đổi)
+    Luong = 16000000,                        -- Cập nhật lương (nếu thay đổi)
+    GhiChu = 'Cập nhật thông tin nhân viên'  -- Ghi chú cập nhật (nếu có)
+WHERE HoTen = 'Nguyen Thi A';               -- Điều kiện lọc để chỉ cập nhật nhân viên này
+GO

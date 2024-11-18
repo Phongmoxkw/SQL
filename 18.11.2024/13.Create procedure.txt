@@ -1,0 +1,15 @@
+﻿CREATE PROCEDURE InvoiceTotal
+(
+    @Quantity FLOAT,
+    @UnitPrice FLOAT,
+    @TotalAmount FLOAT OUTPUT
+)
+AS
+BEGIN
+    -- Gọi function và gán giá trị trả về vào biến OUTPUT
+    SET @TotalAmount = @Quantity * @UnitPrice;
+
+    -- In ra kết quả
+    PRINT 'Total Amount: ' + CAST(@TotalAmount AS VARCHAR(50));
+END;
+GO

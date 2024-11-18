@@ -1,0 +1,2 @@
+﻿BACKUP DATABASE Foods
+TO DISK = 'D:\SQL\Tụ tìm hiểu SQL\18.11.2024\BackUp\Foods.bak';

@@ -1,0 +1,4 @@
+CREATE VIEW InvoiceQuantityA AS
+SELECT Quantity
+FROM Invoice
+GO

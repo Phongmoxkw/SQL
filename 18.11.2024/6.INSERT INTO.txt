@@ -1,0 +1,14 @@
+﻿INSERT INTO NhanVien (HoTen, NgaySinh, GioiTinh, DiaChi, SoDienThoai, Email, ChucVu, NgayBatDauLamViec, Luong, GhiChu)
+VALUES
+('Nguyen Thi A', '1985-02-14', 'Nữ', '123 Đường ABC, Quận 1, TP.HCM', '0901234567', 'nguyenthia@example.com', 'Nhân viên', '2020-07-01', 15000000, 'Nhân viên bán hàng'),
+('Tran Minh B', '1990-03-25', 'Nam', '456 Đường XYZ, Quận 2, TP.HCM', '0912345678', 'tranminhb@example.com', 'Quản lý', '2019-03-10', 20000000, 'Quản lý khu vực'),
+('Le Thi C', '1992-05-10', 'Nữ', '789 Đường PQR, Quận 3, TP.HCM', '0923456789', 'lethic@example.com', 'Nhân viên', '2021-09-15', 12000000, 'Nhân viên bán hàng'),
+('Pham Minh D', '1987-11-05', 'Nam', '321 Đường LMN, Quận 4, TP.HCM', '0934567890', 'phamminhd@example.com', 'Quản lý', '2018-02-20', 25000000, 'Quản lý cửa hàng'),
+('Hoang Thi E', '1995-07-22', 'Nữ', '654 Đường JKL, Quận 5, TP.HCM', '0945678901', 'hoangthie@example.com', 'Nhân viên', '2022-05-10', 13000000, 'Nhân viên bán hàng'),
+('Nguyen Minh F', '1993-09-30', 'Nam', '987 Đường STU, Quận 6, TP.HCM', '0956789012', 'nguyenminhf@example.com', 'Nhân viên', '2020-01-05', 11000000, 'Nhân viên kho'),
+('Tran Thi G', '1996-04-18', 'Nữ', '159 Đường WXY, Quận 7, TP.HCM', '0967890123', 'tranthig@example.com', 'Nhân viên', '2023-03-01', 14000000, 'Nhân viên bán hàng'),
+('Le Minh H', '1988-12-12', 'Nam', '753 Đường RST, Quận 8, TP.HCM', '0978901234', 'leminhh@example.com', 'Quản lý', '2017-11-20', 22000000, 'Quản lý chi nhánh'),
+('Pham Thi I', '1991-01-15', 'Nữ', '246 Đường QRS, Quận 9, TP.HCM', '0989012345', 'phamthi@example.com', 'Nhân viên', '2019-10-10', 12500000, 'Nhân viên bán hàng'),
+('Hoang Minh J', '1994-08-04', 'Nam', '135 Đường VWX, Quận 10, TP.HCM', '0990123456', 'hoangminhj@example.com', 'Nhân viên', '2022-02-22', 13500000, 'Nhân viên hỗ trợ');
+
+GO

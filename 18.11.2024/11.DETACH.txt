@@ -1,0 +1,6 @@
+﻿-- Tách cơ sở dữ liệu khỏi SQL Server
+EXEC sp_detach_db 'Foods', 'true';
+GO
+
+
+

@@ -1,0 +1,4 @@
+﻿RESTORE DATABASE Foods
+FROM DISK = 'D:\SQL\Tụ tìm hiểu SQL\18.11.2024\BackUp\Foods.bak'  -- Đường dẫn đến tệp sao lưu
+WITH REPLACE;                          -- Tùy chọn REPLACE để ghi đè nếu cơ sở dữ liệu đã tồn tại
+GO

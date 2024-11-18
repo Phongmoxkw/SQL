@@ -1,0 +1,14 @@
+﻿CREATE TABLE NHANVIEN (
+    MaNhanVien INT PRIMARY KEY IDENTITY(1,1),  -- Mã nhân viên tự tăng
+    HoTen NVARCHAR(100) NOT NULL,               -- Họ tên nhân viên
+    NgaySinh DATE,                              -- Ngày sinh
+    GioiTinh NVARCHAR(10),                      -- Giới tính (Nam/Nữ)
+    DiaChi NVARCHAR(200),                       -- Địa chỉ
+    SoDienThoai VARCHAR(15),                    -- Số điện thoại
+    Email NVARCHAR(100),                        -- Email liên hệ
+    ChucVu NVARCHAR(50),                        -- Chức vụ (ví dụ: Nhân viên, Quản lý)
+    NgayBatDauLamViec DATE,                     -- Ngày bắt đầu làm việc
+    Luong DECIMAL(18, 2),                       -- Lương (đơn vị: VND)
+    GhiChu NVARCHAR(500)                        -- Ghi chú thêm (nếu có)
+);
+GO

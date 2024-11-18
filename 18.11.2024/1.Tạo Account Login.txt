@@ -1,0 +1,14 @@
+﻿-- Tạo Login sử dụng Authentication (Xác thực) của SQL Server
+CREATE LOGIN PhongLogin
+WITH PASSWORD = '123456',
+     CHECK_EXPIRATION = OFF,
+     CHECK_POLICY = ON;
+GO
+
+-- Tạo User để cấp quyền sử dụng database
+USE FoodsDb;
+GO
+
+CREATE USER PhongUser
+FOR LOGIN PhongLogin;
+GO
