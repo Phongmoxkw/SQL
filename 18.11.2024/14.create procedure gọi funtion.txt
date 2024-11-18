@@ -20,8 +20,8 @@ DECLARE @TotalAmount FLOAT;
 EXEC dbo.CalculateInvoice @Quantity = 10, @UnitPrice = 100, @TotalAmount = @TotalAmount OUTPUT;
 
 -- Xem kết quả
-SELECT @TotalAmount AS TotalAmount;
-
+SELECT @TotalAmount AS TotalAmount;                                                                                                         
+                                                                                                                                             
 --------------------------------------------------------------------------------------------------------------------------------------------
 
 --CREATE PROCEDURE dbo.sp_GetEmployeeWithBonus 
