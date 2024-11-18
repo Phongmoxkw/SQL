@@ -9,3 +9,6 @@ BEGIN
     RETURN @Quantity * @UnitPrice;  -- Tính tổng tiền
 END;
 GO
+
+--Gọi Hàm
+--SELECCT * FROM tên hàm(tham số nếu có); 
