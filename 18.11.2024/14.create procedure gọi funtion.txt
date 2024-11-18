@@ -22,4 +22,22 @@ EXEC dbo.CalculateInvoice @Quantity = 10, @UnitPrice = 100, @TotalAmount = @Tota
 -- Xem kết quả
 SELECT @TotalAmount AS TotalAmount;
 
+--------------------------------------------------------------------------------------------------------------------------------------------
+
+--CREATE PROCEDURE dbo.sp_GetEmployeeWithBonus 
+--AS
+--BEGIN
+--    SELECT FullName,
+--           Position,
+--           Salary,
+--		   dbo.fn_CalculateBonus(Salary) AS Bonus
+--	FROM Employees
+--END;
+--GO
+
+
+EXEC dbo.sp_GetEmployeeWithBonus 
+
+
+
 
